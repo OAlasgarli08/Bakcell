@@ -358,11 +358,15 @@ body{
 }
 
 .application{
-    width: 1250px;
+    width: 1300px;
     background-color: rgb(196, 190, 190);
     margin-left: 260px;
     margin-top: 150px;
     border-radius: 15px;
+}
+
+.gray{
+    background-color: rgb(196, 190, 190);;
 }
 
 .red{
@@ -373,10 +377,12 @@ body{
 
 #app-l{
     display: inline-block;
+    vertical-align: bottom;
 }
 
 #app-m{
     display: inline-block;
+    vertical-align: bottom;
 }
 
 #app-r{
@@ -394,3 +400,136 @@ body{
 #app-text{
     display: inline-block;
 }
+
+
+#app-l{
+    width: 488px;
+    margin-left: 30px;
+    padding-top: 90px;
+    vertical-align: top;
+}
+
+#app-l h1{
+    color: #e00034;
+}
+
+#app-l-icons{
+    display: inline-block;
+    margin-top: 100px;
+    width: 140px;
+    vertical-align: bottom;
+}
+
+#apple-store{
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+#google-play{
+    background-color: white;
+    border-radius: 8px;
+}
+
+#app-l-icons img{
+    width: 30px;
+    display: inline-block;
+}
+
+#app-l-icons p{
+    display: inline-block;
+}
+
+
+#qr-code{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
+.number{
+    margin-top: 150px;
+    margin-left: 260px;
+    width: 800px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: rgb(221, 221, 221);
+}
+
+.header h1{
+    display: inline-block;
+    margin-right: 340px;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 50px;
+    
+}
+
+.number h3{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.btn{
+    margin-right: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.rank{
+    margin-left: 70px;
+    margin-bottom: 200px;
+}
+
+.number-price{
+    margin-left: 200px;
+    margin-top: 180px;
+    color: #e00534;
+    text-align: center;
+    font-weight: 800;
+}
+
+.buttonOwn{
+    margin-left: 145px !important;
+    
+}
+
+.buttonOwn2{
+    color: white;
+    background-color: #e00034;
+    height: 50px;
+}
+
+.btn-primary2 {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #e00034;
+    --bs-btn-border-color: #e00034;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #51091a;
+    --bs-btn-hover-border-color: #51091a;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #e00034;
+    --bs-btn-active-border-color: #e00034;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #e00034;
+    --bs-btn-disabled-border-color: #e00034;
+}
+
+
+.volte{
+    width: 1250px;
+    height: 300px;
+    margin-left: 260px;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+#VoLTE-l{
+    display: inline-block;
+    margin-left: 110px;
+    margin-right: 355px;
+}
+
